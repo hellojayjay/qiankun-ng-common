@@ -1,0 +1,11 @@
+{
+  "name": "qiankun-ng-common",
+  "version": "0.0.1-beta3",
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
