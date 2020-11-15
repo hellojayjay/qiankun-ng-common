@@ -5,7 +5,7 @@
     "ng": "ng",
     "prepare": "npm run build && npm run release",
     "build": "ng build qiankun-ng-common --prod",
-    "release": "npm publish dist/qiankun-ng-common",
+    "release": "npm run publish dist/qiankun-ng-common",
     "test": "ng test",
     "lint": "ng lint"
   },
