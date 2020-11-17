@@ -1,11 +1,12 @@
 {
   "name": "qiankun-ng-common-project",
   "version": "0.0.0",
+  "repository": "https://github.com/hellojayjay/qiankun-ng-common",
   "scripts": {
     "ng": "ng",
-    "prepare": "npm run build && npm run release",
+    "release": "npm run build && npm run pub",
     "build": "ng build qiankun-ng-common --prod",
-    "release": "npm run publish dist/qiankun-ng-common",
+    "pub": "npm publish dist/qiankun-ng-common",
     "test": "ng test",
     "lint": "ng lint"
   },
